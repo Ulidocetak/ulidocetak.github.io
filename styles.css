@@ -659,7 +659,7 @@ a.contact-card:hover { transform: translateY(-2px); background: rgba(255,255,255
 }
 
 /* Wadah icon */
-.hero-socials .social-logo {
+.hero-socials .social-icon {
   width: 34px;
   height: 34px;
   flex: 0 0 34px;
@@ -672,21 +672,26 @@ a.contact-card:hover { transform: translateY(-2px); background: rgba(255,255,255
   background: #f4f7fb;
 }
 
-/* Ukuran logo */
-.hero-socials .social-logo svg {
+/* Ukuran SVG */
+.hero-socials .social-icon svg {
   width: 18px;
   height: 18px;
   display: block;
 }
 
-/* Instagram mengikuti identitas ULIDO */
-.hero-socials .instagram-logo svg {
-  stroke: #1769ff !important;
+/* Instagram */
+.hero-socials .instagram-icon svg {
+  fill: none;
+  stroke: #1769ff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 /* TikTok */
-.hero-socials .tiktok-logo svg {
-  fill: #111827 !important;
+.hero-socials .tiktok-icon svg {
+  fill: #111827;
+  stroke: none;
 }
 
 /* Username */
@@ -697,18 +702,6 @@ a.contact-card:hover { transform: translateY(-2px); background: rgba(255,255,255
   letter-spacing: -0.15px;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .hero-socials {
-    width: 100%;
-    gap: 10px;
-  }
-
-  .hero-socials a {
-    width: 100%;
-    min-width: 0;
-  }
-}
 .hero-points .check,
 .hero-feature .check {
   width: 30px;
