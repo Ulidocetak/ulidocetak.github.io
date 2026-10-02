@@ -20,22 +20,22 @@ const PRODUCTS = [
   {
     id: "undangan-adat", name: "Undangan Adat", category: "undangan", categoryLabel: "Undangan",
     description: "Undangan bernuansa adat dengan elemen budaya, foto, warna, dan tata letak yang dibuat lebih personal untuk keluarga.",
-    priceFrom: 4500, unit: "/ pcs", image: "assets/products/undangan-batak-toba.webp", imageAlt: "Produk undangan adat Batak Toba ULIDO Cetak"
+    priceFrom: 7500, unit: "/ pcs", image: "assets/products/undangan-batak-toba.webp", imageAlt: "Produk undangan adat Batak Toba ULIDO Cetak"
   },
   {
     id: "kartu-nama", name: "Kartu Nama", category: "percetakan", categoryLabel: "Percetakan",
     description: "Kartu nama profesional untuk bisnis dan personal branding, tersedia dalam berbagai pilihan kertas dan finishing.",
-    priceFrom: 30000, unit: "/ box", image: "assets/products/kartu-nama-ulido.webp", imageAlt: "Mockup kartu nama ULIDO Cetak"
+    priceFrom: 65000, unit: "/ box", image: "assets/products/kartu-nama-ulido.webp", imageAlt: "Mockup kartu nama ULIDO Cetak"
   },
   {
     id: "stiker", name: "Stiker Custom", category: "percetakan", categoryLabel: "Percetakan",
     description: "Stiker untuk label produk, kemasan, logo, souvenir, dan promosi dengan bentuk serta ukuran yang dapat disesuaikan.",
-    priceFrom: 20000, unit: "/ lembar", image: "assets/products/stiker-ulido.webp", imageAlt: "Mockup stiker custom ULIDO Cetak"
+    priceFrom: 25000, unit: "/ lembar", image: "assets/products/stiker-ulido.webp", imageAlt: "Mockup stiker custom ULIDO Cetak"
   },
   {
     id: "brosur-flyer", name: "Brosur & Flyer", category: "percetakan", categoryLabel: "Percetakan",
     description: "Media promosi informatif untuk usaha, sekolah, event, menu, layanan, dan kampanye pemasaran dengan cetak tajam.",
-    priceFrom: 750, unit: "/ pcs", image: "assets/products/brosur-flyer-ulido.webp", imageAlt: "Mockup Brosur dan Flyer ULIDO Cetak"
+    priceFrom: 1000, unit: "/ pcs", image: "assets/products/brosur-flyer-ulido.webp", imageAlt: "Mockup Brosur dan Flyer ULIDO Cetak"
   },
   {
     id: "id-card", name: "ID Card & Lanyard", category: "percetakan", categoryLabel: "Percetakan",
@@ -55,12 +55,12 @@ const PRODUCTS = [
   {
     id: "banner", name: "Banner & Spanduk", category: "advertising", categoryLabel: "Advertising",
     description: "Banner dan spanduk untuk toko, event, promosi, kampanye, sekolah, serta kebutuhan indoor dan outdoor berbagai ukuran.",
-    priceFrom: 25000, unit: "/ m²", image: "assets/products/banner-ulido.webp", imageAlt: "Mockup banner ULIDO Cetak"
+    priceFrom: 60000, unit: "/ m²", image: "assets/products/banner-ulido.webp", imageAlt: "Mockup banner ULIDO Cetak"
   },
   {
     id: "x-banner", name: "X-Banner", category: "advertising", categoryLabel: "Advertising",
     description: "Display promosi praktis untuk toko, pameran, seminar, booth, dan acara yang mudah dipindahkan serta digunakan ulang.",
-    priceFrom: 90000, unit: "/ set", image: "assets/products/xbanner-ulido.webp", imageAlt: "Mockup X-Banner ULIDO Cetak"
+    priceFrom: 180000, unit: "/ set", image: "assets/products/xbanner-ulido.webp", imageAlt: "Mockup X-Banner ULIDO Cetak"
   },
   {
     id: "roll-banner", name: "Roll Banner", category: "advertising", categoryLabel: "Advertising",
@@ -100,7 +100,7 @@ const CALCULATOR_DATA = {
   banner: {
     label: "Banner / Spanduk",
     pricing: "area",
-    baseRate: 25000,
+    baseRate: 60000,
     sizes: [
       { label: "60 × 160 cm", factor: 0.96 },
       { label: "80 × 200 cm", factor: 1.6 },
@@ -121,7 +121,7 @@ const CALCULATOR_DATA = {
   stiker: {
     label: "Stiker Custom",
     pricing: "sheet",
-    baseRate: 20000,
+    baseRate: 25000,
     sizes: [
       { label: "A4", factor: 1 },
       { label: "A3", factor: 1.8 },
@@ -141,7 +141,7 @@ const CALCULATOR_DATA = {
   kartunama: {
     label: "Kartu Nama",
     pricing: "box",
-    baseRate: 30000,
+    baseRate: 65000,
     sizes: [
       { label: "Standar 9 × 5.5 cm", factor: 1 },
       { label: "Custom", factor: 1.15 },
@@ -160,10 +160,10 @@ const CALCULATOR_DATA = {
   undangan: {
     label: "Undangan",
     pricing: "piece",
-    baseRate: 3500,
+    baseRate: 7500,
     sizes: [
       { label: "A5 / setara", factor: 1 },
-      { label: "20 × 20 cm / setara", factor: 1.25 },
+      { label: "17 × 25 cm / setara", factor: 1.25 },
       { label: "Custom Premium", factor: 1.55 },
     ],
     materials: [
@@ -198,7 +198,7 @@ const CALCULATOR_DATA = {
   xbanner: {
     label: "X-Banner",
     pricing: "set",
-    baseRate: 90000,
+    baseRate: 180000,
     sizes: [
       { label: "60 × 160 cm", factor: 1 },
       { label: "80 × 180 cm", factor: 1.25 },
@@ -215,7 +215,7 @@ const CALCULATOR_DATA = {
   brosur: {
     label: "Brosur / Flyer",
     pricing: "piece",
-    baseRate: 750,
+    baseRate: 1000,
     sizes: [
       { label: "A5", factor: 1 },
       { label: "A4", factor: 1.6 },
