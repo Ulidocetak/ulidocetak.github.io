@@ -625,14 +625,14 @@ a.contact-card:hover { transform: translateY(-2px); background: rgba(255,255,255
 }
 
 .hero-socials a {
-  width: 192px;
+  width: 180px;
   min-height: 54px;
   padding: 9px 14px;
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 14px;
+  justify-content: flex-start;
+  gap: 10px;
 
   background: rgba(255, 255, 255, 0.94);
   border: 1px solid rgba(37, 99, 235, 0.12);
