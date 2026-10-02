@@ -613,31 +613,99 @@ a.contact-card:hover { transform: translateY(-2px); background: rgba(255,255,255
   .contact-panel { padding: 34px 24px; border-radius: 24px; }
   .contact-copy .btn { width: 100%; }
 }
-.hero-socials .social-icon {
-  width: 22px;
-  height: 22px;
+/* =========================================
+   PREMIUM SOCIAL MEDIA CARDS
+   ========================================= */
+
+.hero-socials {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.hero-socials a {
+  width: 192px;
+  min-height: 54px;
+  padding: 9px 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  border-radius: 16px;
+
+  text-decoration: none;
+
+  box-shadow:
+    0 8px 24px rgba(15, 23, 42, 0.045),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.hero-socials a:hover {
+  transform: translateY(-3px);
+  border-color: rgba(37, 99, 235, 0.28);
+
+  box-shadow:
+    0 14px 32px rgba(15, 23, 42, 0.085);
+}
+
+/* Wadah icon */
+.hero-socials .social-logo {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+
+  border-radius: 50%;
+  background: #f4f7fb;
 }
 
-.hero-socials .social-icon svg {
-  width: 20px;
-  height: 20px;
+/* Ukuran logo */
+.hero-socials .social-logo svg {
+  width: 18px;
+  height: 18px;
   display: block;
 }
 
-/* Instagram */
-.hero-socials .instagram-icon svg {
-  fill: none;
-  stroke: #E1306C;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+/* Instagram mengikuti identitas ULIDO */
+.hero-socials .instagram-logo svg {
+  stroke: #1769ff !important;
 }
 
 /* TikTok */
-.hero-socials .tiktok-icon svg {
-  fill: #111111;
+.hero-socials .tiktok-logo svg {
+  fill: #111827 !important;
+}
+
+/* Username */
+.hero-socials a > span:last-child {
+  color: #1769ff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.15px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero-socials {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .hero-socials a {
+    width: 100%;
+    min-width: 0;
+  }
 }
