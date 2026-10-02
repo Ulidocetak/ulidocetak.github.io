@@ -13,9 +13,9 @@ const SETTINGS = {
 
 const PRODUCTS = [
   {
-    id: "undangan-premium", name: "Undangan Premium", category: "undangan", categoryLabel: "Undangan",
-    description: "Undangan pernikahan dengan desain eksklusif, pilihan bahan beragam, dan finishing yang dapat disesuaikan dengan konsep acara.",
-    priceFrom: 3500, unit: "/ pcs", image: "assets/products/undangan-batak-toba.webp", imageAlt: "Produk undangan premium ULIDO Cetak"
+    id: "paperbag-custom", name: "Paperbag Custom", category: "percetakan", categoryLabel: "Percetakan",
+    description: "Percetakan paper bag custom untuk kebutuhan toko, event, souvenir, dan branding bisnis, tersedia dalam berbagai ukuran, bahan, dan desain sesuai identitas usaha.",
+    priceFrom: 8000, unit: "/ pcs", image: "assets/products/paperbag-ulido.webp", imageAlt: "Produk paperbag custom ULIDO Cetak"
   },
   {
     id: "undangan-adat", name: "Undangan Adat", category: "undangan", categoryLabel: "Undangan",
