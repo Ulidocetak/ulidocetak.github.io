@@ -15,7 +15,7 @@ const PRODUCTS = [
   {
     id: "undangan-premium", name: "Undangan Premium", category: "undangan", categoryLabel: "Undangan",
     description: "Undangan pernikahan dengan desain eksklusif, pilihan bahan beragam, dan finishing yang dapat disesuaikan dengan konsep acara.",
-    priceFrom: 8000, unit: "/ pcs", image: "assets/products/undangan-batak-toba.webp", imageAlt: "Produk undangan premium ULIDO Cetak"
+    priceFrom: 3500, unit: "/ pcs", image: "assets/products/undangan-batak-toba.webp", imageAlt: "Produk undangan premium ULIDO Cetak"
   },
   {
     id: "undangan-adat", name: "Undangan Adat", category: "undangan", categoryLabel: "Undangan",
@@ -35,7 +35,7 @@ const PRODUCTS = [
   {
     id: "brosur-flyer", name: "Brosur & Flyer", category: "percetakan", categoryLabel: "Percetakan",
     description: "Media promosi informatif untuk usaha, sekolah, event, menu, layanan, dan kampanye pemasaran dengan cetak tajam.",
-    priceFrom: 750, unit: "/ pcs", icon: "▥", visualClass: "v-cyan"
+    priceFrom: 750, unit: "/ pcs", image: "assets/products/brosur-flyer-ulido.webp", imageAlt: "Mockup Brosur dan Flyer ULIDO Cetak"
   },
   {
     id: "id-card", name: "ID Card & Lanyard", category: "percetakan", categoryLabel: "Percetakan",
