@@ -613,3 +613,31 @@ a.contact-card:hover { transform: translateY(-2px); background: rgba(255,255,255
   .contact-panel { padding: 34px 24px; border-radius: 24px; }
   .contact-copy .btn { width: 100%; }
 }
+.hero-socials .social-icon {
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hero-socials .social-icon svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+/* Instagram */
+.hero-socials .instagram-icon svg {
+  fill: none;
+  stroke: #E1306C;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* TikTok */
+.hero-socials .tiktok-icon svg {
+  fill: #111111;
+}
