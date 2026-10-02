@@ -625,7 +625,8 @@ a.contact-card:hover { transform: translateY(-2px); background: rgba(255,255,255
 }
 
 .hero-socials a {
-  width: 180px;
+  width: auto;
+  min-width: 140px;
   min-height: 54px;
   padding: 9px 14px;
 
